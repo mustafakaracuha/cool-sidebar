@@ -1,5 +1,8 @@
 # Cool SideBar
 
+
+## Technologies and Libraries
+
 - HTML
 - Tailwind CSS
 - Google Icons
