@@ -8,7 +8,7 @@
 - Google Icons
 
 ## Live
-https://stats-cards-component.vercel.app/
+https://cool-sidebar.vercel.app/
 
   
 ## SideBar Screenshot
