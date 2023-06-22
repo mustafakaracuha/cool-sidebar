@@ -1,13 +1,10 @@
 # Cool SideBar
 
-
-## Technologies and Libraries
-
 - HTML
 - Tailwind CSS
 - Google Icons
 
-## 🌏 Live
+## Live
 https://stats-cards-component.vercel.app/
 
   
