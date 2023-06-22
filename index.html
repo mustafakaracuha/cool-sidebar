@@ -11,31 +11,22 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-      }
-      li {
-        margin-bottom: 20px;
-      }
-    </style>
   </head>
-  <body>
+  <body class="m-0 p-0">
     <div
       class="w-full h-screen flex items-center p-5 justify-center bg-slate-200 overflow-hidden"
     >
       <div
-        class="w-[250px] h-full bg-black relative overflow-hidden flex items-start justify-center shadow-xl shadow-gray-500 rounded-3xl"
+        class="group/item w-[250px] h-full bg-black relative overflow-hidden flex items-start justify-center shadow-xl shadow-gray-500 rounded-3xl"
       >
         <div
-          class="w-80 h-80 bg-green-400 rounded-full absolute -top-[170px] -left-[60px]"
+          class="w-80 h-80 bg-gradient-to-r from-amber-400 to-orange-700 rounded-full absolute -top-[170px] -left-[60px] ease-in-out duration-500 group-hover/item:translate-x-12"
         ></div>
         <div
-          class="w-24 h-24 rounded-full bg-red overflow-hidden z-20 mt-20 ring-[5px] ring-white bg-contain bg-center"
+          class="w-24 h-24 rounded-full bg-red overflow-hidden z-20 mt-20 ring-[5px] ring-white bg-cover"
         >
           <img
-            src="./assest/images/mustafa.jpg"
+            src="./assest/images/user.png"
           />
         </div>
         <p
@@ -45,33 +36,33 @@
         </p>
         <ul class="absolute top-72 left-5 text-white text-xs z-20 p-2">
           <li
-            class="flex items-center tracking-[3px] transition-all duration-300 hover:translate-x-1 hover:text-green-400 cursor-pointer"
+            class="flex items-center tracking-[3px] transition-all duration-300 hover:translate-x-1 hover:text-amber-300 cursor-pointer mb-5"
           >
             <span class="material-symbols-outlined mr-2">home</span>HOME
           </li>
           <li
-            class="flex items-center tracking-[3px] transition-all duration-300 hover:translate-x-1 hover:text-green-400 cursor-pointer"
+            class="flex items-center tracking-[3px] transition-all duration-300 hover:translate-x-1 hover:text-amber-300 cursor-pointer mb-5"
           >
             <span class="material-symbols-outlined mr-2">person</span>ABOUT ME
           </li>
           <li
-            class="flex items-center tracking-[3px] transition-all duration-300 hover:translate-x-1 hover:text-green-400 cursor-pointer"
+            class="flex items-center tracking-[3px] transition-all duration-300 hover:translate-x-1 hover:text-amber-300 cursor-pointer mb-5"
           >
             <span class="material-symbols-outlined mr-2">settings</span>SERVICES
           </li>
           <li
-            class="flex items-center tracking-[3px] transition-all duration-300 hover:translate-x-1 hover:text-green-400 cursor-pointer"
+            class="flex items-center tracking-[3px] transition-all duration-300 hover:translate-x-1 hover:text-amber-300 cursor-pointer mb-5"
           >
             <span class="material-symbols-outlined mr-2">book</span>PORTFOLIO
           </li>
           <li
-            class="flex items-center tracking-[3px] transition-all duration-300 hover:translate-x-1 hover:text-green-400 cursor-pointer"
+            class="flex items-center tracking-[3px] transition-all duration-300 hover:translate-x-1 hover:text-amber-300 cursor-pointer mb-5"
           >
             <span class="material-symbols-outlined mr-2">import_contacts</span
             >BLOGS
           </li>
           <li
-            class="flex items-center tracking-[3px] transition-all duration-300 hover:translate-x-1 hover:text-green-400 cursor-pointer"
+            class="flex items-center tracking-[3px] transition-all duration-300 hover:translate-x-1 hover:text-amber-300 cursor-pointer"
           >
             <span class="material-symbols-outlined mr-2">contact_phone</span
             >CONTACT ME
