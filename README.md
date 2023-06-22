@@ -13,6 +13,6 @@ https://stats-cards-component.vercel.app/
   
 ## SideBar Screenshot
 
-<img align="center" width="900" width="900" src="https://github.com/mustafakaracuha/stats-cards/blob/main/src/assets/app.gif" />
+<img align="center" width="900" width="900" src="https://github.com/mustafakaracuha/cool-sidebar/blob/main/assest/images/screenshot.png" />
 
   
